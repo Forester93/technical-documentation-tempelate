@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Technical Documentation Page</title>
+        <style>
+            body{
+                display:flex;
+                flex-direction: row;
+            }
+            #navbar{
+                height:100vh;
+                width:20vw;
+                display:flex;
+                flex-direction:column;
+                position:sticky;
+                left:0;
+                top:0;
+                background-color:darkgrey;
+                border-style:ridge;
+                border: 3px ridge brown;
+            }
+            .main-section{
+                height:100vh;
+                width:80vw;
+                background-color:beige;
+                left:20vw;
+                padding-top:1vh;
+                padding-left:1vw;
+                border: 3px ridge black;
+            }
+            .nav-link{
+                text-decoration:none;
+                text-align:center;
+                padding-top:10px;
+                padding-bottom:10px;
+                background-color:brown;
+                color:cornsilk;
+                font-size:large;
+                margin-right:0px;
+                margin-left:0px;
+            }
+            .nav-link:hover{
+                background-color:darkred;
+                opacity:0.3;
+            }
+            p{
+                font-size:medium;
+            }
+            header{
+                font-weight:bold;
+                font-size:large;
+                padding-left:5px;
+                padding-right:5px;
+                text-align: center;
+            }
+            p{
+                font-size:medium;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            @media (min-width:300px){
+                a.nav-link{
+                    font-size:medium;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <nav id="navbar">
+            <header>Technical Documentation for a Research Thesis</header>
+            <a class="nav-link" href="#introduction">Introduction</a>
+            <a class="nav-link" href="#objectives">Objectives</a>
+            <a class="nav-link" href="#literature_review">Literature Review</a>
+            <a class="nav-link" href="#methodology">Methodology</a>
+            <a class="nav-link" href="#results_and_discussion">Results and Discussion</a>
+            <a class="nav-link" href="#conclusion">Conclusion</a>
+        </nav>
+        <main id="main-doc">
+            <section class="main-section" id="introduction">
+                <header>
+                    Introduction
+                </header>
+                <p>
+                    This section is where you introduce your work and mention reasons why you would like to undertake this research.<br>
+                </p>
+                <p>
+                    You may choose to add some acknowledgements here and identify the background of this research.<br>
+                </p>
+            </section>
+            <hr>
+            <section class="main-section" id="objectives">
+                <header>
+                    Objectives
+                </header>    
+                <p>
+                    This is where you outline your main objectives of the research.<br>
+                </p>
+                <p>
+                    You can elaborate more on the reasons why you've selected these objectives here.<br>
+                </p>
+                <ol>
+                    <li>1st Item</li>
+                    <li>2nd Item</li>
+                    <li>3rd Item</li>
+                    <li>4th Item</li>
+                    <li>5th Item</li>
+                </ol>
+            </section>
+            <hr>
+            <section class="main-section" id="literature_review">
+                <header>
+                    Literature Review
+                </header>
+                <p>
+                    You can add your 1st reviewed literature title here. Equations and code can be added, for example:
+                </p>
+                <code>x+y=6;</code> <br>
+                <p>
+                    You can add your 2nd reviewed literature title here. Equations and code can be added, for example:
+                </p>
+                <code>x<sup>3</sup>>6;</code> <br>
+                <p>
+                    You can add your 3rd reviewed literature title here. Equations and code can be added, for example:
+                </p>
+                <code>log<sub>x</sub>2=100;</code> <br>
+                <p>
+                    You can add your 4th reviewed literature title here. Equations and code can be added, for example: <code>log<sub>x</sub>2=100;</code> <br>
+                </p>
+                <code>log<sub>x</sub>2=100;</code> <br>
+            </section>
+            <hr>
+            <section class="main-section" id="methodology">
+                <header>
+                    Methodology
+                </header>   
+                <p>
+                    You can outline and detail your methodology of research here. You can also add mathematical equations to show how you are processing your data.
+                </p> 
+                <code>Sin<sup>2</sup>(z)+Cos<sup>2</sup>(z)=1;</code><br>
+            </section>
+            <hr>
+            <section class="main-section" id="results_and_discussion">
+                <header>
+                    Results and Discussion
+                </header>         
+                <p>Mention what you've found in here.</p>
+            </section>
+            <hr>
+            <section class="main-section" id="conclusion">
+                <header>
+                    Conclusion
+                </header>
+                <p>
+                    Outline your conclusions here.
+                </p>
+            </section>
+            <hr>
+        </main>
+    </body>
+</html>
